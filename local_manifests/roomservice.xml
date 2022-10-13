@@ -92,7 +92,7 @@
 
 	<project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" />
 
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="followmsi" revision="los-18.1" />
-  <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="followmsi" revision="lineage-18.1" />
-  <project name="followmsi/android_vendor" path="vendor/google/dragon" remote="followmsi" revision="dragon-11" />
+  <!-- Disabled --> <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="followmsi" revision="los-18.1" />
+  <!-- Disabled --> <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="followmsi" revision="lineage-18.1" />
+  <!-- Disabled --> <project name="followmsi/android_vendor" path="vendor/google/dragon" remote="followmsi" revision="dragon-11" />
 </manifest>
