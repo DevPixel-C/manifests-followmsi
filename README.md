@@ -34,6 +34,8 @@ drwxrwxr-x  7 DevPixel-C DevPixel-C  4096 Feb 28 18:02 repo/
 Then to sync up:
 ````bash
 repo sync --force-sync
+
+repo sync --force-sync --no-clone-bundle -j10
 ````
 Finally to build:
 ````bash
