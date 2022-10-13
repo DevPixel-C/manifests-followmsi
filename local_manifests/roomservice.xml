@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" />
-  <remote name="followmsi" fetch="https://github.com/" revision="dragon-lineage-18.1" />
+  <remote name="followmsi" fetch="https://github.com/" />
 
 	<project name="CM-Shield/android_device_google_dragonshield.git" path="device/google/dragonshield" remote="incom" />
 
@@ -91,6 +91,7 @@
 	<project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
 
 	<project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" />
+
   <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="followmsi" revision="los-18.1" />
   <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="followmsi" revision="lineage-18.1" />
   <project name="followmsi/android_vendor" path="vendor/google/dragon" remote="followmsi" revision="dragon-11" />
