@@ -38,6 +38,7 @@
 	<project name="CM-Shield/android_device_nvidia_icera.git" path="device/nvidia/icera" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_touch.git" path="device/nvidia/touch" remote="incom" />
 
+	<project name="CM-Shield/android_kernel_nvidia_kernel.git" path="kernel/nvidia/kernel-4.9-smaug" remote="incom" revision="lineage-18.1_4.9-smaug" />
 	<project name="CM-Shield/android_kernel_nvidia_shield.git" path="kernel/nvidia/shield" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_mainline.git" path="kernel/nvidia/mainline" remote="incom" />
 
