@@ -66,7 +66,6 @@
 	<project name="CM-Shield/android_hardware_nvidia_platform_t19x_common.git" path="hardware/nvidia/platform/t19x/common" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_platform_t19x_galen_kernel-dts.git" path="hardware/nvidia/platform/t19x/galen/kernel-dts" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_platform_t19x_jakku_kernel-dts.git" path="hardware/nvidia/platform/t19x/jakku/kernel-dts" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_platform_t19x_mccoy_kernel-dts.git" path="hardware/nvidia/platform/t19x/mccoy/kernel-dts" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_soc_t19x.git" path="hardware/nvidia/soc/t19x" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_platform_t23x_common_kernel-dts.git" path="hardware/nvidia/platform/t23x/common/kernel-dts" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_platform_t23x_concord_kernel-dts.git" path="hardware/nvidia/platform/t23x/concord/kernel-dts" remote="incom" />
