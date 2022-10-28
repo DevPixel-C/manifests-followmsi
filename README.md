@@ -3,10 +3,13 @@ dragon-lineage-18.1
 ===========
 
 To initialize your local repository use a command like this:
+
 ````bash
 repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 ````
+
 Then you need to clone the local_manifest:
+
 ````bash
 git clone https://github.com/DevPixel-C/manifests.git
 git checkout origin/dragon-lineage-18.1
@@ -32,14 +35,19 @@ drwxrwxr-x  7 DevPixel-C DevPixel-C  4096 Feb 28 18:02 repo/
 ````
 
 Then to sync up:
+
 ````bash
 repo sync --force-sync
 
 repo sync --force-sync --no-clone-bundle -j10
 ````
+
 Finally to build:
+
 ````bash
 source build/envsetup.sh
 
 brunch dragon
+
+brunch dragonshield
 ````
