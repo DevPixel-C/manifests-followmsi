@@ -1,6 +1,7 @@
+dragonshield-LOS-18.1-WIP_kernel
+================================
 
-dragon-lineage-18.1
-===========
+## **WARNING:** We are using The WIP Testing Kernel in this Repo:
 
 To initialize your local repository use a command like this:
 

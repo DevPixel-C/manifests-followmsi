@@ -2,6 +2,7 @@
 <manifest>
   <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" />
   <remote name="followmsi" fetch="https://github.com/" />
+  <remote name="DevPixel-C" fetch="https://github.com/" />
 
 	<project name="CM-Shield/android_device_google_dragonshield.git" path="device/google/dragonshield" remote="incom" />
 
@@ -38,7 +39,10 @@
 	<project name="CM-Shield/android_device_nvidia_icera.git" path="device/nvidia/icera" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_touch.git" path="device/nvidia/touch" remote="incom" />
 
-	<project name="CM-Shield/android_kernel_nvidia_kernel.git" path="kernel/nvidia/kernel-4.9-smaug" remote="incom" revision="lineage-18.1_4.9-smaug" />
+	<!-- DevPixel-C Testing Kernel (WIP) -->
+	<project name="DevPixel-C/android_kernel_nvidia_kernel_4.9-SMAUG-20221026" path="kernel/nvidia/kernel-4.9-smaug" remote="DevPixel-C" revision="WIP_LOS_18.1_Kernel_4.9_SMAUG" />
+	
+	<!-- project name="CM-Shield/android_kernel_nvidia_kernel.git" path="kernel/nvidia/kernel-4.9-smaug" remote="incom" revision="lineage-18.1_4.9-smaug" /-->
 	<project name="CM-Shield/android_kernel_nvidia_shield.git" path="kernel/nvidia/shield" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_mainline.git" path="kernel/nvidia/mainline" remote="incom" />
 
