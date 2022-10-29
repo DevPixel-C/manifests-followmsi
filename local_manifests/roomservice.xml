@@ -8,6 +8,7 @@
 	<project name="DevPixel-C/android_device_google_dragonshield" path="device/google/dragonshield" remote="DevPixel-C" revision="lineage-18.1" />
 
 	<project name="CM-Shield/android_device_nvidia_foster.git" path="device/nvidia/foster" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
 
 	<!-- We dont Need all Devices for DragonShield (Pixel-C Tablet) -->
 	<!--
