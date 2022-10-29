@@ -1,6 +1,12 @@
 dragonshield-LOS-18.1-WIP_kernel
 ================================
 
+**This Manifest will build either Dragon or Dragonshield (Pixel-C)**
+
+---
+
+
+
 ## **WARNING:** We are using The WIP Testing Kernel in this Repo:
 
 To initialize your local repository use a command like this:
@@ -10,6 +16,26 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 ````
 
 Then you need to clone the local_manifest:
+
+# **WIP-4.9 Kernel**
+
+```
+cd .repo
+git clone https://github.com/DevPixel-C/manifests.git -b dragonshield-LOS-18.1-WIP_Kernel TMP
+cd TMP
+mv ./local_manifests ../
+cd ../../
+```
+
+# **Original-4.9 Kernel**
+
+```
+cd .repo
+git clone https://github.com/DevPixel-C/manifests.git -b dragon-lineage-18.1 TMP
+cd TMP
+mv ./local_manifests ../
+cd ../../
+```
 
 ````bash
 git clone https://github.com/DevPixel-C/manifests.git
@@ -51,4 +77,10 @@ source build/envsetup.sh
 brunch dragon
 
 brunch dragonshield
+
+**Extra:**
+Recovery partition: mka recoveryimage
+Boot image ramdisk: mka bootimage
+Vendor_boot image ramdisk: mka vendorbootimage
 ````
+
