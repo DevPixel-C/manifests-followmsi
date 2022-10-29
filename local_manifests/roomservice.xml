@@ -7,6 +7,8 @@
 	<!-- Lets use our own Device Tree FOR WIP Project work -->
 	<project name="DevPixel-C/android_device_google_dragonshield" path="device/google/dragonshield" remote="DevPixel-C" revision="lineage-18.1" />
 
+	<project name="CM-Shield/android_device_nvidia_foster.git" path="device/nvidia/foster" remote="incom" />
+
 	<!-- We dont Need all Devices for DragonShield (Pixel-C Tablet) -->
 	<!--
 	<project name="CM-Shield/android_device_nintendo_icosa.git" path="device/nintendo/icosa" remote="incom" />
@@ -15,7 +17,6 @@
 	<project name="CM-Shield/android_device_nvidia_roth.git" path="device/nvidia/roth" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_shieldtablet.git" path="device/nvidia/shieldtablet" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_jetson.git" path="device/nvidia/jetson" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_foster.git" path="device/nvidia/foster" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_quill.git" path="device/nvidia/quill" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_galen.git" path="device/nvidia/galen" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
