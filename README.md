@@ -10,7 +10,7 @@ dragonshield-LOS-18.1-WIP_kernel
 To initialize your local repository use a command like this:
 
 ````bash
-repo init -u https://github.com/LineageOS/manifests -b lineage-18.1
+repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 ````
 
 Then you need to clone the local_manifest:
