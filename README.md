@@ -5,14 +5,12 @@ dragonshield-LOS-18.1-WIP_kernel
 
 ---
 
-
-
 ## **WARNING:** We are using The WIP Testing Kernel in this Repo:
 
 To initialize your local repository use a command like this:
 
 ````bash
-repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
+repo init -u https://github.com/LineageOS/manifests -b lineage-18.1
 ````
 
 Then you need to clone the local_manifest:
@@ -21,7 +19,7 @@ Then you need to clone the local_manifest:
 
 ```
 cd .repo
-git clone https://github.com/DevPixel-C/manifests.git -b dragonshield-LOS-18.1-WIP_Kernel TMP
+git clone https://github.com/DevPixel-C/manifests-followmsi.git -b dragonshield-LOS-18.1-WIP_Kernel TMP
 cd TMP
 mv ./local_manifests ../
 cd ../../
@@ -31,14 +29,14 @@ cd ../../
 
 ```
 cd .repo
-git clone https://github.com/DevPixel-C/manifests.git -b dragon-lineage-18.1 TMP
+git clone https://github.com/DevPixel-C/manifests-followmsi.git -b dragon-lineage-18.1 TMP
 cd TMP
 mv ./local_manifests ../
 cd ../../
 ```
 
 ````bash
-git clone https://github.com/DevPixel-C/manifests.git
+git clone https://github.com/DevPixel-C/manifests-followmsi.git
 git checkout origin/dragon-lineage-18.1
 ````
 
