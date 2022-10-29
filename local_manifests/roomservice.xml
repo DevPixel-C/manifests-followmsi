@@ -4,8 +4,11 @@
   <remote name="followmsi" fetch="https://github.com/" />
   <remote name="DevPixel-C" fetch="https://github.com/" />
 
-	<project name="CM-Shield/android_device_google_dragonshield.git" path="device/google/dragonshield" remote="incom" />
+	<!-- Lets use our own Device Tree FOR WIP Project work -->
+	<project name="DevPixel-C/android_device_google_dragonshield" path="device/google/dragonshield" remote="DevPixel-C" revision="lineage-18.1" />
 
+	<!-- We dont Need all Devices for DragonShield (Pixel-C Tablet) -->
+	<!--
 	<project name="CM-Shield/android_device_nintendo_icosa.git" path="device/nintendo/icosa" remote="incom" />
 
 	<project name="CM-Shield/android_device_nvidia_dalmore.git" path="device/nvidia/dalmore" remote="incom" />
@@ -24,7 +27,9 @@
 	<project name="CM-Shield/android_device_nvidia_mdarcy_tab.git" path="device/nvidia/mdarcy_tab" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_concord.git" path="device/nvidia/concord" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_concord_tab.git" path="device/nvidia/concord_tab" remote="incom" />
+	-->
 
+	<!-- NVidia Common Stuff We Do Need -->
 	<project name="CM-Shield/android_device_nvidia_tegra-common.git" path="device/nvidia/tegra-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_t114-common.git" path="device/nvidia/t114-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_t124-common.git" path="device/nvidia/t124-common" remote="incom" />
@@ -96,7 +101,8 @@
 
 	<project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" />
 
-  <project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="followmsi" revision="los-18.1" />
-  <project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="followmsi" revision="lineage-18.1" />
-  <project name="followmsi/android_vendor" path="vendor/google/dragon" remote="followmsi" revision="dragon-11" />
+	<!-- FollowMSI Repo Builds -->
+  	<project name="followmsi/android_device_google_dragon" path="device/google/dragon" remote="followmsi" revision="los-18.1" />
+  	<project name="followmsi/android_kernel_tegra" path="kernel/google/tegra" remote="followmsi" revision="lineage-18.1" />
+  	<project name="followmsi/android_vendor" path="vendor/google/dragon" remote="followmsi" revision="dragon-11" />
 </manifest>
